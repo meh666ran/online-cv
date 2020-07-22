@@ -3,72 +3,56 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mehran Zolghadr
+    tagline: Back-End Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    email: meh666ran@riseup.net
+    phone:
+    website: https://mehranzr.ir #do not add http://
+    linkedin:
+    github: meh666ran
+    telegram: meh666ran
+    gitlab: mehraan
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@meh666ran'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Persian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Microservices
         link:
 
-      - item: Snowboarding
+      - item: Mobile App Development
         link:
 
-      - item: Cooking
+      - item: Machine Learning
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Back-End Developer with 2+ Years experience and strong ability in developing restful APIs with laravel.
+      Fluent in PHP and Laravel and looking forward to be a golang developer, also have some experiences in Dart(flutter) and Python.
+      Have some capabilities to manage servers (not like a real system adminstrator, but can deploy my own projects.).
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Computer Engineering
+      university: Azad University of Qazvin
+      time: 2019 - Present
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,113 +62,87 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Back-End Developer
+      time: 2019 - 2020
+      company: Artam, Qazvin
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          Build and create high performance web services to controll IoT devices.
+          - Developed 2+ Web App Back-Ends
+          - Developed REST APIs to controll IoT hardwares
+          - Getting to know needed protocols like MQTT
+          - Completed 2 major projects within 4 months 
+
+    - role: Back-End Developer and System Adminstrator
+      time: 2018 - 2019
+      company: Sarir Service, Tehran
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Hired as API Developer and focused on develop APIs compatible with JavaScript Front-End Frameworks.
+          - Helped build REST services highly scalable
+          - Collaborated with Front-End Developers
+          - Configured servers and deployed various projects isolated
+
 projects:
-    title: Projects
+    title: Public Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here is my public projects. most of them are licensed under GNU Public License v3. you can see each project's source on its github page.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: meAccounting
+        link: "https://github.com/meh666ran/meAccounting"
+        tagline: "A personal accounting app written in flutter that simply helps users to submit and track their expenses and incomes, and planned to build a golang server side program to save data online with current application."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: FOSS4News (Cooperation with Alireza Sadraii)
+        link: "https://github.com/foss4/FOSS4News"
+        tagline: "Just a simple clone of The Hacker News based on Laravel Framework and Bootstrap 4. The project has been released in Persian language but we are planning to add additional languages in the future."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Ordering System (REST API)
+        link: "https://github.com/meh666ran/ordering"
+        tagline: "An ordering restful API service writtern in laravel. designed for using in Pastry shops, but can be used in any other kind of shops or even E-Shops."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Jbook
+        link: "https://github.com/meh666ran/Jbook"
+        tagline: "A book to learn basics of java programming language built on Gitbook in Persian language."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: PopUp Translator
+        link: "https://github.com/meh666ran/PopUpTranslator"
+        tagline: "A simple program written in python & tkinter to translate words in clipboard (English to Persian & reverse) with the help of Google Translate, and shows result in a pop-up window."
+
 
 publications:
-    title: Publications
+    title: Published Contents
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Here's my main and maybe helpful published contents on Internet. most of these content are published under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> License, unless otherwise stated.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: How to make a native multiauth system in Laravel
+        link: "https://www.youtube.com/playlist?list=PL-WATT0qm4palxy-xIPybEeKuemyWP7nG"
+        authors: Explain how to create a native multi authentication system in laravel PHP framework in 7 episodes.
+        conference: Published on <a href="https://www.youtube.com/">YouTube</a>
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Personal Blog
+        link: "https://mehranzr.ir"
+        authors: Just my personal blog made in Jekyll!
+        conference: Published on <a href="https://mehranzr.ir">Mehranzr.ir</a>
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: PHP & Laravel
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Golang
+        level: 75%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Dart & Flutter
+        level: 65%
+
+      - name: Python
+        level: 80%
+
+      - name: Shell Scripting
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 30%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - <a href="https://github.com/meh666ran/online-cv">Source code of this site</a> -
